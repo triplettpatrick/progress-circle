@@ -29,7 +29,7 @@ div.outer {
     width: 160px;
     border-radius: 50%;
     padding: 20px;
-    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.7),
                 -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
 }
 
@@ -50,7 +50,6 @@ div.inner {
 div#number {
     font-weight: 600;
     color: #555;
-
 }
 
 circle {
@@ -59,9 +58,9 @@ circle {
     stroke-width: 20px;
     stroke-dasharray: 440;
     stroke-dashoffset: 440;
-    animation: anim 2s linear forwards;
+    animation: anim 2s  ease-in-out forwards;
 }
-
+/* cubic-bezier(0.42, 0, 0.58, 1) */
 svg {
     position: absolute;
     top: 0;
